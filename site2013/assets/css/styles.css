@@ -25,6 +25,13 @@
 	text-transform: uppercase;
 }
 
+.header-interno{
+	min-height: 50px;
+	background: url(../img/bg-banner.jpg) center top repeat-x;
+	padding: 0 0 20px;
+	margin-bottom: 50px;
+}
+
 h2{
 	font-size: 50px;
 	color: #DDDDDD;
