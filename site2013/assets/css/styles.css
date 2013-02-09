@@ -1,0 +1,147 @@
+.text-center{
+	text-align: center;
+}
+.center{
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	background: url(../img/bg-banner.jpg) center top repeat-x;
+	background-attachment: fixed;
+	min-height: 430px;
+	margin-top: 50px;
+}
+
+.logo{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.logo h1{
+	color: #FBF2C1;
+	font-size: 55px;
+	margin-top: 50px;
+	line-height: 58px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 50px;
+	color: #DDDDDD;
+	text-align: center;
+	line-height: 60px;
+}
+
+h3{
+	font-size: 18px;
+	color: #faac3b;
+	text-align: center;
+	line-height: 25px;
+}
+
+.logo p{
+	font-size: 22px;
+	color: #DDDDDD;
+	margin-bottom: 50px;
+}
+
+.logo-interno{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cta{
+	width: 100%;
+	background-color: #21172C;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.btn-success{
+	line-height: 40px;
+}
+
+.mvp-pontos{
+	text-align: center;
+}
+
+section{
+	min-height: 400px;
+	padding: 50px 0 50px 0;
+}
+
+#wood{
+	background: url(../img/wood.jpg);
+}
+
+#wood h2{
+	color: #836d9f;
+}
+
+#dark{
+	background: url(../img/dark.png);
+}
+
+#dark p{
+	text-align: center;
+	color: #836d9f;
+}
+
+#clara{
+	background: #eee;
+}
+
+.img-circle{
+	border: 1px solid #666;
+}
+
+.answer{
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 0 0 6px rgba(88,77,55,0.4);
+  background-color: white;
+  padding: 30px;
+}
+
+.answer h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 0 10px 0;
+	text-align: left;
+	color: black;
+}
+
+.titlebar{
+  display: block;
+  margin: -30px 0 20px -30px;
+  padding: 15px 0 10px 30px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #F9F9F9;
+  color: #999;
+  font-size: 14px;
+}
+
+.tibarside{
+	font-size: 16px;
+	color: black;
+}
+
+ul.side li a {
+	color: #477b96;
+	text-decoration: underline;
+	padding: 10px 0 10px 0;
+}
+
+ul.side li a:hover {
+	text-decoration: none;
+}
+
+ul.side li {
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0 10px 0;
+}
