@@ -13,16 +13,26 @@
 }
 
 .logo{
-	margin-top: 20px;
 	text-align: center;
 }
 
 .logo h1{
 	color: #FBF2C1;
-	font-size: 55px;
+	font-size: 45px;
 	margin-top: 50px;
+	line-height: 18px;
+}
+
+.logo h2{
+	color: #FBF2C1;
+	font-size: 85px;
+	margin: 20px 0 50px 0;
 	line-height: 58px;
-	text-transform: uppercase;
+}
+
+.logo-interno{
+	margin-top: 20px;
+	text-align: center;
 }
 
 .header-interno{
@@ -30,6 +40,7 @@
 	background: url(../img/bg-banner.jpg) center top repeat-x;
 	padding: 0 0 20px;
 	margin-bottom: 50px;
+	border-bottom: 2px solid #000;
 }
 
 h2{
