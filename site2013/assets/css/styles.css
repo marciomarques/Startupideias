@@ -1,3 +1,6 @@
+body{
+	font-family: proxima-nova-1, sans-serif;
+}
 .text-center{
 	text-align: center;
 }
@@ -6,9 +9,18 @@
 }
 .banner{
 	width: 100%;
-	background: url(../img/bg-banner.jpg) center top repeat-x;
+	background: #21172C url(../img/bg-banner.jpg) center top repeat-x;
 	background-attachment: fixed;
+	background-size: cover;
 	min-height: 430px;
+	margin-top: 30px;
+}
+
+.banner p{
+	color: #ec6037;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 200;
 	margin-top: 50px;
 }
 
@@ -18,16 +30,20 @@
 
 .logo h1{
 	color: #FBF2C1;
-	font-size: 45px;
+	font-size: 90px;
 	margin-top: 50px;
-	line-height: 18px;
+	line-height: 90px;
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 
 .logo h2{
 	color: #FBF2C1;
-	font-size: 85px;
+	font-size: 70px;
 	margin: 20px 0 50px 0;
-	line-height: 58px;
+	line-height: 30px;
+	font-weight: 200;
+	letter-spacing: -3px;
 }
 
 .logo-interno{
@@ -90,12 +106,18 @@ section{
 }
 
 #wood{
-	background: url(../img/wood.jpg);
+	background: url(../img/paper.jpg);
 }
 
 #wood h2{
 	color: #836d9f;
 }
+
+
+.clara{
+	background-color: #21172C;
+}
+
 
 #dark{
 	background: url(../img/dark.png);
@@ -104,10 +126,6 @@ section{
 #dark p{
 	text-align: center;
 	color: #836d9f;
-}
-
-#clara{
-	background: #eee;
 }
 
 .img-circle{
@@ -162,4 +180,10 @@ ul.side li {
 	list-style: none;
 	border-bottom: 1px solid #ccc;
 	padding: 10px 0 10px 0;
+}
+
+blockquote{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
 }
