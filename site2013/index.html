@@ -2,17 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>Startup Ideias</title>
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Le styles -->
     <link href="./assets/css/bootstrap.css" rel="stylesheet">	
     <link href="./assets/css/styles.css" rel="stylesheet">
     <link href="./assets/css/fonts.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Fontes -->
     <link href='http://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
@@ -31,9 +28,9 @@
           </a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-              <li class="active"><a href="#nosso-processo">Nosso Processo</a></li>
-              <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li class="active"><a class="scroll" href="#nosso-processo">Nosso Processo</a></li>
+              <li><a class="scroll" href="#wood">Projetos</a></li>
+              <li><a class="scroll" href="#depoimentos">Depoimentos</a></li>
               <li><a href="#contact">Contato</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -41,147 +38,159 @@
       </div>
     </div>
     <!-- Start -->
-   	<section class="banner">
-		<div class="container">
-			<div class="row span12">
-				<div class="logo">
-					<a href="#"><img src="./assets/img/logo.png" alt="Startup Ideias"/></a>
-					<h1 class="text-center">Lance sua startup,</h1>
-					<h2 class="text-center">em menos tempo!</h2>
-				</div>		
-			</div>
-			<div class="mvp-pontos">
-				<img src="assets/img/mvp-pontos.png" alt="mv-pontos" width="703" height="104">
-			</div> 
-			<p class="text-center">Valide o mercado através de um MVP (produto mínimo viável) funcionando.</p>
-			</div>
-		</div>
-	</section>
-	<div class="cta">
-		<div class="container">
-			<div class="row">
-				<div class="span12">	
-					<a class="btn btn-large btn-success" href="#contact">Fale Conosco e saiba mais!</a>
-				</div><!-- Fim span -->			
-			</div><!-- Fim row -->
-		</div><!-- Fim container -->
-	</div><!-- Fim Cta -->    
+    <section class="banner">
+      <div class="container">
+        <div class="row span12">
+          <div class="logo">
+            <a href="#"><img src="./assets/img/logo.png" alt="Startup Ideias"/></a>
+            <h1 class="text-center">Lance sua startup,</h1>
+            <h2 class="text-center">em menos tempo!</h2>
+          </div>
+          <div class="mvp-pontos">
+            <img src="assets/img/mvp-pontos.png" alt="mv-pontos" width="703" height="104">
+          </div>
+          <p class="text-center">Valide o mercado através de um MVP (produto mínimo viável) funcionando.</p>
+        </div>
+      </div>
+    </section>
+    <div class="cta" id="contact-container">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <a class="btn btn-large btn-success" href="#contact">Fale Conosco e saiba mais!</a>
+          </div><!-- Fim span -->
+        </div><!-- Fim row -->
+      </div><!-- Fim container -->
+    </div><!-- Fim Cta -->
     <div id="nosso-processo"></div>
     <section id="dark">
-    	<div class="container">
-    		<h2>Como tiramos sua ideia do papel</h2>
-    		<p>Realizamos uma reunião onde entendemos a sua ideia e montamos o escopo do projeto.</p>
-    		<div class="row">
-    	<div class="offset1 span2">
-          <img src="./assets/img/sua-ideia.png">
-          <h3>Ideia</h3>
-        </div><!-- /.span2 -->
-        <div class="span2">
-          <img src="./assets/img/time.png">
-          <h3>Planejamento e Backlog</h3>
-        </div><!-- /.span2 -->
-        <div class="span2">
-          <img src="./assets/img/tempo.png">
-          <h3>Design UX</h3>
-        </div><!-- /.span2 -->
-        <div class="span2">
-          <img src="./assets/img/codificacao.png">
-          <h3>Codificação</h3>
-        </div><!-- /.span2 -->
-        <div class="span2">
-          <img src="./assets/img/lancamento.png">
-          <h3>Lançamento</h3>
-        </div><!-- /.span2 -->		
-    		</div><!-- Fim row -->
-    	</div><!-- Fim container -->
+      <div class="container">
+        <h2>Como tiramos sua ideia do papel</h2>
+        <p>Realizamos uma reunião onde entendemos a sua ideia e montamos o escopo do projeto.</p>
+        <div class="row steps">
+          <div class="offset1 span2">
+            <img src="./assets/img/sua-ideia.png" alt="Ideia">
+            <h3>Ideia</h3>
+          </div><!-- /.span2 -->
+          <div class="span2">
+            <img src="./assets/img/time.png" alt="Planejamento e Backlog">
+            <h3>Planejamento e Backlog</h3>
+          </div><!-- /.span2 -->
+          <div class="span2">
+            <img src="./assets/img/tempo.png" alt="Design UX">
+            <h3>Design UX</h3>
+          </div><!-- /.span2 -->
+          <div class="span2">
+            <img src="./assets/img/codificacao.png" alt="Codificação">
+            <h3>Codificação</h3>
+          </div><!-- /.span2 -->
+          <div class="span2">
+            <img src="./assets/img/lancamento.png" alt="Lançamento">
+            <h3>Lançamento</h3>
+          </div><!-- /.span2 -->
+        </div><!-- Fim row -->
+      </div><!-- Fim container -->
     </section><!-- Fim Dark -->
     <section id="wood">
-    	<div id="projetos" class="container">
+      <div id="projetos" class="container">
         <h2 class="text-center">Projetos</h2>
         <div class="row">
           <div class="span2">
             <h4 class="text-center">Unioon</h4>
-            <a href="http://unioon.herokuapp.com/" target="_blank"><img src="./assets/img/unioon.jpg" class="img-polaroid" alt="Unioon"></a>
+            <a href="http://unioon.herokuapp.com/" target="_blank">
+              <img src="./assets/img/unioon.jpg" class="img-polaroid" alt="Unioon">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Fifty</h4>
-            <a href="http://www.fifty.com.br" target="_blank"><img src="./assets/img/fifty.jpg" class="img-polaroid" alt="Fifty"></a>
+            <a href="http://www.fifty.com.br" target="_blank">
+              <img src="./assets/img/fifty.jpg" class="img-polaroid" alt="Fifty">
+            </a>
           </div>	
           <div class="span2">
             <h4 class="text-center">Envie Proposta</h4>
-            <a href="http://www.envieproposta.com.br" target="_blank"><img src="./assets/img/envie-proposta.jpg" class="img-polaroid" alt="Envie proposta"></a>
+            <a href="http://www.envieproposta.com.br" target="_blank">
+              <img src="./assets/img/envie-proposta.jpg" class="img-polaroid" alt="Envie proposta">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Cinemize</h4>
-            <a href="http://www.cinemize.me" target="_blank"><img src="./assets/img/cinemize.jpg" class="img-polaroid" alt="Cinemize.me"></a>
+            <a href="http://www.cinemize.me" target="_blank">
+              <img src="./assets/img/cinemize.jpg" class="img-polaroid" alt="Cinemize.me">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Isgool</h4>
-            <a href="http://www.isgool.com.br" target="_blank"><img src="./assets/img/isgool.jpg" class="img-polaroid" alt="Isgool"></a>
+            <a href="http://www.isgool.com.br" target="_blank">
+              <img src="./assets/img/isgool.jpg" class="img-polaroid" alt="Isgool">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Cinese</h4>
-            <a href="http://www.cinese.me" target="_blank"><img src="./assets/img/cinese.jpg" class="img-polaroid" alt="Cinese"></a>
+            <a href="http://www.cinese.me" target="_blank">
+              <img src="./assets/img/cinese.jpg" class="img-polaroid" alt="Cinese">
+            </a>
           </div>
-           <div class="span2">
+          <div class="span2">
             <h4 class="text-center">Postalize</h4>
-            <a href="http://www.postalize.me" target="_blank"><img src="./assets/img/postalize.jpg" class="img-polaroid" alt="Postalize"></a>
+            <a href="http://www.postalize.me" target="_blank">
+              <img src="./assets/img/postalize.jpg" class="img-polaroid" alt="Postalize">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Comprador Feliz</h4>
-            <a href="http://www.compradorfeliz.com.br" target="_blank"><img src="./assets/img/comprador.jpg" class="img-polaroid" alt="Comprador Feliz"></a>
+            <a href="http://www.compradorfeliz.com.br" target="_blank">
+              <img src="./assets/img/comprador.jpg" class="img-polaroid" alt="Comprador Feliz">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Startup Sul</h4>
-            <a href="http://www.startupsul.com.br" target="_blank"><img src="./assets/img/startupsul.jpg" class="img-polaroid" alt="Startup Sul"></a>
+            <a href="http://www.startupsul.com.br" target="_blank">
+              <img src="./assets/img/startupsul.jpg" class="img-polaroid" alt="Startup Sul">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Presentear.me</h4>
-            <a href="http://www.presentear.me" target="_blank"><img src="./assets/img/presentear.jpg" class="img-polaroid" alt="Presentear.me"></a>
+            <a href="http://www.presentear.me" target="_blank">
+              <img src="./assets/img/presentear.jpg" class="img-polaroid" alt="Presentear.me">
+            </a>
           </div>
           <div class="span2">
             <h4 class="text-center">Malaio.me</h4>
-            <a href="http://www.malaio.me" target="_blank"><img src="./assets/img/malaio.jpg" class="img-polaroid" alt="Malaio"></a>
+            <a href="http://www.malaio.me" target="_blank">
+              <img src="./assets/img/malaio.jpg" class="img-polaroid" alt="Malaio">
+            </a>
           </div>
           <div class="span2">
-          	<h4 class="text-center">Sua ideia</h4>
-            <a href="#" target="_blank"><img src="./assets/img/tire.jpg" class="img-polaroid" alt="Entre em contato"></a>
+            <h4 class="text-center">Sua ideia</h4>
+            <a href="#" target="_blank">
+              <img src="./assets/img/tire.jpg" class="img-polaroid" alt="Entre em contato">
+            </a>
           </div>
         </div>
       </div>
     </section><!-- Fim  ID Wood -->
     <section class="clara">
-    	<div id="depoimentos" class="container">
-    		<h2 class="text-center">Depoimentos</h2>
-    		<div class="row">
-    			<div class="offset2 span8">
-       				<blockquote>"O pessoal da Caixa de Ideias mostrou criatividade e muito profissionalismo ao criar meu MVP, além de oferecer um ótimo custo-benefício e me ajudar em todo processo de criação, desde a percepção do problema até a melhor solução do mesmo".
-	    				<small>Junior Alves - Unioon</small>
-    				</blockquote>	
-    			</div><!-- Fim span -->
-    			<div class="offset2 span8">
-    				<blockquote>"Fiquei muito satisfeito com todo o trabalho da equipe. Desde o primeiro contato até a finalização tudo foi bem realizado. Durante o projeto pude junto com a equipe organizar todas as ideias e colocá-las em ordem de prioridade, para que fosse possível o correto desenvolvimento da ideia. Eu recomendo!".
-	    				<small>Wilson Diniz - Banco Escolar</small>
-    				</blockquote>	
-    			</div><!-- Fim span -->				
-    		</div><!-- Fim row -->
-    	</div><!-- Fim container -->
+      <div id="depoimentos" class="container">
+        <h2 class="text-center">Depoimentos</h2>
+        <div class="row">
+          <div class="offset2 span8">
+            <blockquote>"O pessoal da Caixa de Ideias mostrou criatividade e muito profissionalismo ao criar meu MVP, além de oferecer um ótimo custo-benefício e me ajudar em todo processo de criação, desde a percepção do problema até a melhor solução do mesmo".
+              <small>Junior Alves - Unioon</small>
+            </blockquote>
+          </div><!-- Fim span -->
+          <div class="offset2 span8">
+            <blockquote>"Fiquei muito satisfeito com todo o trabalho da equipe. Desde o primeiro contato até a finalização tudo foi bem realizado. Durante o projeto pude junto com a equipe organizar todas as ideias e colocá-las em ordem de prioridade, para que fosse possível o correto desenvolvimento da ideia. Eu recomendo!".
+              <small>Wilson Diniz - Banco Escolar</small>
+            </blockquote>
+          </div><!-- Fim span -->
+        </div><!-- Fim row -->
+      </div><!-- Fim container -->
     </section>
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/fixOnTop.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
