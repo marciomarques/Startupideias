@@ -53,8 +53,8 @@ body{
 
 .header-interno{
 	min-height: 50px;
-	background: url(../img/bg-banner.jpg) center top repeat-x;
-	padding: 0 0 20px;
+	background: #21172C;
+	padding: 10px 0 20px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid #000;
 }
@@ -141,6 +141,7 @@ section{
   box-shadow: 0 0 6px rgba(88,77,55,0.4);
   background-color: white;
   padding: 30px;
+  margin-bottom: 100px;
 }
 
 .answer h2{
@@ -149,6 +150,12 @@ section{
 	margin: 0 0 10px 0;
 	text-align: left;
 	color: black;
+}
+
+h2.titside {
+	font-size: 18px;
+	padding: 0;
+	text-align: left;
 }
 
 .titlebar{
@@ -167,9 +174,11 @@ section{
 }
 
 ul.side li a {
-	color: #477b96;
-	text-decoration: underline;
-	padding: 10px 0 10px 0;
+	background: url(../img/stars.png) no-repeat left center;	
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	padding: 10px 0 10px 20px;
 }
 
 ul.side li a:hover {
@@ -178,7 +187,6 @@ ul.side li a:hover {
 
 ul.side li {
 	list-style: none;
-	border-bottom: 1px solid #ccc;
 	padding: 10px 0 10px 0;
 }
 
