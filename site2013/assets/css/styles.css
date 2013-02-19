@@ -190,6 +190,10 @@ ul.side li {
 	padding: 10px 0 10px 0;
 }
 
+ul.side {
+	margin: 0;
+}
+
 blockquote{
 	color: white;
 	text-align: center;
