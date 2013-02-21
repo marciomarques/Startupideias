@@ -6,7 +6,7 @@
   if ($('#contact-container').length > 0) {
     topOffset = $('#contact-container').offset().top - topPadding;
   }
-  $.fn.fixOnTop = function (pos, nextPadding) {
+  $.fn.fixOnTop = function (pos, nextPadding, top) {
     var $this = $(this),
     $window = $(window);
     
@@ -23,7 +23,7 @@
         }
         $this.css({
           position: 'fixed',
-          top: topPadding
+          top: top
         });
       } else {
         if (nextPadding) {
@@ -40,10 +40,10 @@
 
   $(document).ready(function(){
     if ($('#contact-container').length > 0){
-      $('#contact-container').fixOnTop(topOffset, true);
+      $('#contact-container').fixOnTop(topOffset, true, topPadding);
     }
     if ($('.sidebar-float').length > 0){
-      $('.sidebar-float').fixOnTop($('.sidebar-float').offset().top, false);
+      $('.sidebar-float').fixOnTop($('.sidebar-float').offset().top, false, 0);
     }
     if ($(window).scrollTop() > topOffset) {
       $('#contact-container').css({
