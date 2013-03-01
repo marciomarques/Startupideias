@@ -105,6 +105,10 @@ section{
 	padding: 50px 0 50px 0;
 }
 
+section h2.agenda{
+  margin-bottom: 50px;
+}
+
 #wood{
 	background: url(../img/paper.jpg);
 }
@@ -113,13 +117,12 @@ section{
 	color: #836d9f;
 }
 
-
 .clara{
 	background-color: #21172C;
 }
 
 
-#dark{
+#dark, #agenda{
 	background: url(../img/dark.png);
 }
 
@@ -334,4 +337,9 @@ blockquote{
 p.footer{
 	color: white;
 	text-align: center;
+}
+
+.data{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #836d9f;
 }
