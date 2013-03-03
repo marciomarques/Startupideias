@@ -343,3 +343,8 @@ p.footer{
   margin-bottom: 20px;
   border-bottom: 1px solid #836d9f;
 }
+
+.btn-faq{
+	min-width: 180px;
+	margin: 20px 0 20px 0;
+}
