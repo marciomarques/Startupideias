@@ -8,6 +8,7 @@
     <meta content='Desenvolvimento de aplicativos web para empreendedores e startups com preço fixo e em apenas 10 dias.' name='description'>
     <link href="./assets/css/bootstrap.css" rel="stylesheet">	
     <link href="./assets/css/styles.css" rel="stylesheet">
+    <link href="./assets/css/wufoo.css" rel="stylesheet">
     <link href="./assets/css/fonts.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,44 +27,24 @@
 	  		<a class="logo-form" href="http://startupideias.com.br/"><img src="./assets/img/logo.png" alt="STARTUP IDEIAS"/></a>
 	  	</div>
 	  </div>
-	  <form class="form" action="https://caixadeideias.wufoo.eu/forms/r7w9x7/#public" method="post" name="form8" autocomplete="off">
-	  <div class="modal-body">
-				<input class="input-xlarge" name="Field26" type="text" placeholder="Digite seu Nome" />
-				<input class="input-xlarge" name="Field2" type="text" placeholder="Digite seu Email" />
-				
-				<li id="fo40li28" class="notranslate       ">
-				<label class="desc" id="title28" for="Field28">
-				Selecione uma opção de MVP!
-				<span id="req_28" class="req">*</span>
-				</label>
-				<div>
-				<select id="Field28" name="Field28" class="field select medium" onclick="handleInput(this);" onkeyup="handleInput(this);" tabindex="3"> 
-        <option value="----------------------" selected="selected">
-        ----------------------
-        </option>
-        <option value="MVP 50 pontos R$ 6 mil">
-        MVP 50 pontos R$ 6 mil
-        </option>
-        <option value="MVP 80 pontos R$ 10 mil">
-        MVP 80 pontos R$ 10 mil
-        </option>
-        <option value="MVP 120 pontos R$ 14 mil">
-        MVP 120 pontos R$ 14 mil
-        </option>
-        </select>
-				</div>
-				</li>
-				
-			      <div style="display: none">
-			        <label for="comment">Do Not Fill This Out</label>
-			        <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-			        <input type="hidden" id="idstamp" name="idstamp" value="9YpSMg3h/HeXaTyc3UlR/CAfaIRmOCV7tSUbFumexBU=">x
-			      </div>
+	  <div id="wufoo-r7w9x7">
+		Fill out my <a href="http://caixadeideias.wufoo.com/forms/r7w9x7">online form</a>.
 	  </div>
-	  <div class="modal-footer">
-	  	<button name="saveForm" type="submit" class="btn btn-large btn-success" value="9YpSMg3h/HeXaTyc3UlR/CAfaIRmOCV7tSUbFumexBU=">Quero desenvolver »</button>
-	  </div>
-	  </form>
+		<script type="text/javascript">var r7w9x7;(function(d, t) {
+		var s = d.createElement(t), options = {
+		'userName':'caixadeideias', 
+		'formHash':'r7w9x7', 
+		'autoResize':true,
+		'height':'380',
+		'async':true,
+		'header':'hide', 
+		'ssl':true};
+		s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+		s.onload = s.onreadystatechange = function() {
+		var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+		try { r7w9x7 = new WufooForm();r7w9x7.initialize(options);r7w9x7.display(); } catch (e) {}};
+		var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+		})(document, 'script');</script>
 	</div>
 	
 	<div class="container">
