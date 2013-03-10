@@ -1,5 +1,5 @@
 body{
-	font-family: proxima-nova-1, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .text-center{
 	text-align: center;
@@ -7,20 +7,25 @@ body{
 .center{
 	margin: 0 auto;
 }
+
+#tag{
+	position: absolute;
+	top: 100px;
+}
+
 .banner{
 	width: 100%;
 	background: #21172C url(../img/bg-banner.jpg) center top repeat-x;
 	background-attachment: fixed;
 	background-size: cover;
-	min-height: 430px;
-	margin-top: 30px;
+	min-height: 300px;
 }
 
 .banner p{
 	color: #ec6037;
 	font-size: 20px;
 	line-height: 30px;
-	font-weight: 200;
+	font-weight: 100;
 	margin-top: 50px;
 }
 
@@ -30,20 +35,20 @@ body{
 
 .logo h1{
 	color: #FBF2C1;
-	font-size: 90px;
+	font-size: 70px;
 	margin-top: 50px;
 	line-height: 90px;
-	font-weight: 600;
+	font-weight: 900;
 	letter-spacing: 2px;
 }
 
-.logo h2{
-	color: #FBF2C1;
-	font-size: 70px;
-	margin: 20px 0 50px 0;
+.logo span{
+	font-style: normal;
+	font-weight: 100;
 	line-height: 30px;
-	font-weight: 200;
-	letter-spacing: -3px;
+	color: #FBF2C1;
+	font-size: 50px;
+	margin: 20px 0 50px 0;
 }
 
 .logo-interno{
